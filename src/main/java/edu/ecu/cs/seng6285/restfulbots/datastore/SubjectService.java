@@ -42,11 +42,6 @@ public class SubjectService {
             subjects.add(entityToSubject(entity));
         }
         return subjects;
-
-        // TODO: What code needs to be added here to retrieve all subjects?
-
-        // TODO: Remove this return statement once you have something valid to return
-        //return Collections.emptyList();
     }
     private Subject entityToSubject(Entity entity)
    {
